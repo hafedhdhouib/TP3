@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    var nom = "hafedh dhouib";
+    List <string> names = new List<string>()
+    {
+    "ADAM","anis","Mariem","yosser"
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">welcom @nom</h1>
+    <ul>
+    @foreach(var item in names)
+    {
+    <li></li>
+
+    }
+</ul>
+    <p> @DateTime.Now </p>
+</div>
